@@ -6,4 +6,6 @@ const v = a - b;
 const m = a * b;
 const d = a / b;
 
-alert(`${a} + ${b} = ${s}\n${a} - ${b} = ${v}\n${a} * ${b} = ${m}\n${a} / ${b} = ${d}`);
+alert(
+    `${a} + ${b} = ${s}\n${a} - ${b} = ${v}\n${a} * ${b} = ${m}\n${a} / ${b} = ${d}`
+);
