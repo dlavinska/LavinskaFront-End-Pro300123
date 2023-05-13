@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+    &__posts-number {
+        font-size: 16px;
+        font-weight: bold;
+        height: 30px;
+        border: 2px solid;
+        border-radius: 10px;
+        margin-left: 5px;
+        padding: 10px;
+    }
+}
+
+.form>label {
+    font-size: 25px;
+    font-weight: bold;
+}

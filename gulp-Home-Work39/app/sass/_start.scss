@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    min-width: 375px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1380px;
+    min-width: 375px;
+    padding: 0 30px;
+    background-image: url('../img/body.jpg');
+    background-position: top center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-object {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}

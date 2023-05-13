@@ -1,0 +1,42 @@
+.wrapp {
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+
+    &__mistake{
+        color: $red;
+        width: 100%;
+        height: 100%;
+        padding: 40px 0;
+        background: $greyredwhite;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 2;
+        border: 2px solid $violet;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    &__mistake-btn-error {
+        cursor: pointer;
+        border: none;
+        color: $white;
+        background-color: $green;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        margin: 15px auto;
+    }
+}
