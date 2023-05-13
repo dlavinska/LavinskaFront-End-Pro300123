@@ -1,0 +1,47 @@
+.posts {
+    background: #eaeff8;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+    &__post-data {
+        font-size: 20px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    &__post-title {
+        font-size: 25px;
+    }
+
+    &__btn-comments {
+        width: 150px;
+        height: 30px;
+        margin: 0 auto;
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+        border: none;
+        border-radius: 7px;
+        font-size: 18px;
+        padding: 0 7px;
+        margin-bottom: 7px;
+    }
+
+    &__comments {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        gap: 15px;
+    }
+
+    &__comment {
+        width: 100%;
+    }
+}
